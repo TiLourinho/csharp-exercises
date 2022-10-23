@@ -3,8 +3,10 @@ using System.Globalization;
 
 namespace FixationExercises
 {
-    class Exercise02 {
-        static void Main(string[] args) {
+    class Exercise02
+    {
+        static void Main(string[] args)
+        {
             Console.WriteLine("Entre com seu nome completo:");
             string name = Console.ReadLine();
 

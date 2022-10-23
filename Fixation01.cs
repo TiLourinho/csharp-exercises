@@ -17,6 +17,7 @@ namespace FixationExercises
             double price2 = 650.50;
             double measurement = 53.234567;
 
+            Console.WriteLine("--------------------");
             Console.WriteLine("Produtos:");
             Console.WriteLine($"{product1}, cujo preço é R$ {price1:F2}");
             Console.WriteLine($"{product2}, cujo preço é R$ {price2:F2}");
@@ -26,6 +27,7 @@ namespace FixationExercises
             Console.WriteLine($"Medida com oito casas decimais: {measurement:F8}");
             Console.WriteLine($"Arredondado (três casas decimais): {measurement:F3}");
             Console.WriteLine("Separador decimal invariant culture: " + measurement.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("--------------------");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Exercises
 
             /*
             A - Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
-            mensagem explicativa, conforme exemplos.
+            mensagem explicativa, conforme exemplos:
 
             Entrada: 10 30 - Saída: SOMA = 40
 
@@ -29,7 +29,7 @@ namespace Exercises
 
             /*
             B - Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo com quatro
-            casas decimais conforme exemplos. 
+            casas decimais conforme exemplos:
             
             Fórmula da área: area = π . raio2
             Considere o valor de π = 3.14159
