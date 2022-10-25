@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Exercises.Exercise02</StartupObject>
+    <StartupObject>Exercises.Exercise03</StartupObject>
   </PropertyGroup>
 
 </Project>
