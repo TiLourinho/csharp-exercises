@@ -4,7 +4,7 @@ namespace Exercises
 {
     class Exercise03
     {
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
             /*
             A - Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha

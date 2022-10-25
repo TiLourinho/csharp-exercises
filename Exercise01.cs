@@ -4,7 +4,7 @@ namespace Exercises
 {
     class Exercise01
     {
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
             double PI = 3.14159;
 
