@@ -5,7 +5,7 @@ namespace Exercises
 {
     class Exercise02
     {
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
             /*
             A - Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
