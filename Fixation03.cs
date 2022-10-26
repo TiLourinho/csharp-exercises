@@ -22,7 +22,7 @@ namespace FixationExercises
             Pessoa mais velha: Maria
             */
 
-            //IsOlder();
+            IsOlder();
 
             /*
             B - Fazer um programa para ler nome e salário de dois funcionários. Depois, mostrar o salário
