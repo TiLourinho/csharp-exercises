@@ -1,6 +1,6 @@
 <h2 align="center">C# COMPLETO - Programação Orientada a Objetos + Projetos</h2>
 
-<p align="center">Este repositório foi feito para registrar os exercícios do curso **C# COMPLETO - Programação Orientada a Objetos + Projetos** do professor Nélio Alves.</p>
+<p align="center">Este repositório foi feito para registrar os exercícios do curso <strong>C# COMPLETO - Programação Orientada a Objetos + Projetos</strong> do professor Nélio Alves.</p>
 
 ### Fixação
 
