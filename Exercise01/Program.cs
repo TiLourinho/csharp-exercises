@@ -20,9 +20,9 @@ namespace Exercises
             */
 
             Console.WriteLine("Digite um número:");
-            int number1 = int.Parse(Console.ReadLine());
+            int number1 = int.Parse(Console.ReadLine()!);
             Console.WriteLine("Digite outro número:");
-            int number2 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine()!);
 
             int sum = number1 + number2;
             Console.WriteLine($"SOMA = {sum}");
@@ -42,7 +42,7 @@ namespace Exercises
             */
 
             Console.WriteLine("Digite o valor do raio de um círculo:");
-            double radius = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double radius = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
             double area = PI * (Math.Pow(radius, 2));
 
@@ -58,7 +58,7 @@ namespace Exercises
             */
 
             Console.WriteLine("Digite 4 valores numéricos (na mesma linha):");
-            string[] inputNumbers = Console.ReadLine().Split(' ');
+            string[] inputNumbers = Console.ReadLine()!.Split(' ');
 
             int numberA = int.Parse(inputNumbers[0]);
             int numberB = int.Parse(inputNumbers[1]);
@@ -90,13 +90,13 @@ namespace Exercises
             Console.WriteLine("-----------------------");
 
             Console.WriteLine("Número do funcionário:");
-            int employeeNumber = int.Parse(Console.ReadLine());
+            int employeeNumber = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Horas trabalhadas:");
-            int workedHours = int.Parse(Console.ReadLine());
+            int workedHours = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Valor da hora trabalhada:");
-            double workedHourValue = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double workedHourValue = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
             double salary = (double)workedHours * workedHourValue;
             Console.WriteLine("-----------------------");
@@ -121,22 +121,22 @@ namespace Exercises
             Console.WriteLine("-----------------------");
 
             Console.WriteLine("Código da peça:");
-            int part1Code = int.Parse(Console.ReadLine());
+            int part1Code = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Quantidade:");
-            int part1Quantity = int.Parse(Console.ReadLine());
+            int part1Quantity = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Valor da peça:");
-            double part1Price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double part1Price = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
             Console.WriteLine("Código da peça:");
-            int part2Code = int.Parse(Console.ReadLine());
+            int part2Code = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Quantidade:");
-            int part2Quantity = int.Parse(Console.ReadLine());
+            int part2Quantity = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Valor da peça:");
-            double part2Price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double part2Price = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
             double part1TotalPrice = part1Quantity * part1Price;
             double part2TotalPrice = part2Quantity * part2Price;
@@ -172,7 +172,7 @@ namespace Exercises
 
             Console.WriteLine("Valor de A, B e C:");
 
-            string[] variables = Console.ReadLine().Split(' ');
+            string[] variables = Console.ReadLine()!.Split(' ');
 
             double varA = double.Parse(variables[0], CultureInfo.InvariantCulture);
             double varB = double.Parse(variables[1], CultureInfo.InvariantCulture);
