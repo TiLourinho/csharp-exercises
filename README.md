@@ -8,6 +8,7 @@
 02. [Entrada de Dados II](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation02)
 03. [Classes, Objetos e Atributos](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation03)
 04. [Classes, Atributos e Métodos](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation04)
+05. [Membros Estáticos](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation05)
 
 ### Exercícios
 
