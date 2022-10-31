@@ -25,7 +25,6 @@ namespace FixationExercises
             double cost = CurrencyConverter.Converter(quote, quantity);
 
             Console.WriteLine($"Valor a ser pago em reais = {cost.ToString("F2", CultureInfo.InvariantCulture)}");
-            Console.WriteLine();
         }
     }
 }
