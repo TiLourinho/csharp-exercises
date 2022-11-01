@@ -10,6 +10,7 @@
 04. [Classes, Atributos e Métodos](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation04)
 05. [Membros Estáticos](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation05)
 06. [Encapsulamento](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation06)
+07. [Vetores](https://github.com/TiLourinho/csharp-exercises/tree/master/Fixation07)
 
 ### Exercícios
 
